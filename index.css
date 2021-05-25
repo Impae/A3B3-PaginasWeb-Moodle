@@ -1,0 +1,86 @@
+body{
+	background-color: #FFFFFF;
+}
+header{
+	background-color: #EFF5F5;
+	height: 100px;
+}
+.logo{
+	display: inline-block;
+	position: absolute;
+	top:20px;
+	bottom: 20px;
+	left:20px;
+}
+.titulo{
+	display: inline-block;
+	font-family: 'Kanit';
+}
+h1{
+	font-family: 'Kanit';
+	position: absolute;
+	top:25px;
+	left:85px;
+}
+h3{
+	font-family: 'Kanit';
+	position: absolute;
+	top:52px;
+	left:85px;
+}
+A:link{
+	text-decoration: none;
+	outline: none;
+	text-color: none;
+}
+small {
+    font-size: .7em;
+}
+nav{
+	padding: 5px;
+	height: 35px; 
+	background-color: #EFF5F5;
+	text-align:center;
+}
+.menu:hover{
+	background-color: #F0F0F0;
+	padding:.5px;
+}
+.linea{
+	border:#B0B0B0 .01px solid;
+}
+.menu{
+	font-family: 'Kanit';
+	font-size: 1.3em;
+	margin-left: 35px;
+}
+.imagen{
+	display: inline-block;
+	padding: 20px;
+	font-family: 'Kanit';
+}
+section{
+	text-align: center;
+	display: inline-block;
+}
+aside{
+	position:absolute;
+	padding-top:242px;
+	padding-bottom: 200px;
+	padding-left: 153px;
+	padding-right: 153px;
+	margin-top: 20px;
+	margin-left: 20px;
+	text-align: center;
+	box-sizing: content-box;
+	display: inline-block;
+	background-color: #CAD1D0;
+	font-family: 'Kanit';
+}
+footer{
+	background-color: #798A87;
+	padding: 30px;
+	text-align: center;
+	font-family: 'Kanit';
+	font-size: 1.4em;
+}
